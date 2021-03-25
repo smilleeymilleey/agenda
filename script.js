@@ -17,10 +17,17 @@ $(".description").each( function(){
 
 
     if (time < currentTime) {
-        $(this).addClass("past"); //specifically for 9am
-       
+        $(this).addClass("past"); 
+    
+        
+    } else if (time > currentTime) {
+        $(this).addClass("future");
+        
+    } else {
+        $(this).addClass("present");
+
     }
-})
+});
 
 // if (data-time < currentTime) {
    
