@@ -52,13 +52,6 @@
         <li><a href="#built-with">Built With Javascript, JQuery, BootStrap, HTML, CSS</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -70,7 +63,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Agenda Planner][./agendascreenshot.jpg]](https://smilleeymilleey.github.io/agenda/)
+Agenda Planner
+
+<img src="./agendascreenshot.jpg">
 
  I want to create an agenda planner so amazing that it'll be the last one you ever need -- I think this is it.
 
