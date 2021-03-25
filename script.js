@@ -1,13 +1,27 @@
 
+let display = document.getElementById('currentDay');
+let date = moment().format('MMMM Do YYYY, h:mm:ss a');
+let currentTime = moment().hour();
 
 displayDate();
 function displayDate(){
-let display = document.getElementById('currentDay');
-let date = moment().format('MMMM Do YYYY, h:mm:ss a');
 display.textContent = date;
 
 }
 
-let time = [9,10,11,12,1,2,3,4,5] 
+$(".description").each( function(){
 
-if (time )
+    let time = $(this).data("time");
+    console.log(time)
+    console.log(currentTime)
+
+
+    if (time < currentTime) {
+        $(this).addClass("past"); //specifically for 9am
+       
+    }
+})
+
+// if (data-time < currentTime) {
+   
+// })
